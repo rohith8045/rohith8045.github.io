@@ -14,21 +14,19 @@ img{
   margin:auto;
 }
 
-/* COMMON CLASSES */
 .primary-text{
-  color:#56a79a;
+
 }
 
 .primary-background{
-  background:#56a79a;
+  background:#56a7;
 }
 
-/* HEADER */
+
 #main-header{
   border-bottom:1px solid #56a79a;
 }
 
-/* NAVBAR */
 #navbar{
   text-transform:uppercase;
 }
@@ -37,20 +35,21 @@ img{
   display:inline;
   padding-right:20px;
   list-style:none;
+
 }
 
 #navbar a{
   text-decoration:none;
   color:#888;
+  font-size: 14px;
 }
 
 #navbar li.current a, #navbar a:hover{
   color:#56a79a;
-  border-bottom: 3px solid #56a79a;
   padding-bottom:3px;
 }
 
-/* SHOWCASE */
+
 #showcase{
   background:url('../images/showcase.jpg') no-repeat center center;
   border-bottom:1px solid #56a79a;
@@ -61,35 +60,41 @@ img{
   height:400px;
 }
 
-#showcase h1{
-  font-size:50px;
-  margin:0;
-  padding-bottom:20px;
-}
 
-#showcase p{
-  color:#ddd;
-  margin:0;
-}
 
-#showcase .showcase-content{
-  background:#333;
-  color:#fff;
-  padding:20px;
-  opacity:0.9;
+#subheader h1{
+  text-align: center;
 }
-
-/* FEATURES */
-#features h2{
+#subheader h2{
   font-size:35px;
   margin:0;
   padding-bottom:10px;
+  text-align:left;
+}
+
+#page li{
+  text-align: left;
+}
+#features h2{
+  font-size:25px;
+  margin:0;
+  padding-bottom:10px;
+  text-align: center;
 }
 
 #features p{
   color:#888;
   margin:0;
-  margin-bottom:40px;
+  font-size: 15px;
+  margin-bottom:20px;
+  text-align: center;
+}
+#features p1{
+  color:#888;
+  margin:0;
+  margin-bottom:20px;
+  font-size: 13px;
+
 }
 
 #features .fa{
@@ -97,7 +102,6 @@ img{
   color:#56a79a;
 }
 
-/* INFO */
 #info{
   background:#333 url('../images/info-bg.jpg') no-repeat;
   color:#fff;
@@ -119,7 +123,6 @@ img{
   font-size:20px;
 }
 
-/* COMPANY */
 #company{
   background:#333;
   color:#fff;
@@ -147,73 +150,18 @@ img{
   padding:10px;
   border:0;
 }
-
-/* FOOTER */
 #main-footer{
-  background:#56a79a;
+  background:#483D8B;
   color:#fff;
+  height: 2em;
 }
 
-/* PAGE */
 #page{
   margin-bottom:40px;
 }
-
-/* SERVICES */
-.services ul li{
-  list-style:none;
-  padding:10px;
+#page h3{
+  text-align: center;
 }
-
-.services ul li:nth-child(odd){
-  background:#333;
-  color:#fff;
-}
-
-.services ul li:nth-child(even){
-  background:#56a79a;
-  color:#fff;
-}
-
-/* CONTACT */
-.contact form{
-  background:#333;
-  color:#fff;
-  padding:20px;
-}
-
-.contact form input[type="text"]{
-  width:50%;
-  height:30px;
-  margin-bottom:10px;
-}
-
-.contact form textarea{
-  width:50%;
-  height:100px;
-}
-
-.contact form button{
-  width:50%;
-  padding:10px 0;
-  border:0;
-  background:#222;
-  color:#fff;
-}
-
-.contact form label{
-  text-transform:uppercase;
-}
-
-/* MEDIA QUERIES */
-@media(max-width:800px){
-  #showcase h1{
-    font-size:30px;
-  }
-}
-
-@media(max-width:500px){
-  #showcase .showcase-content{
-    padding:40px 10px;
-  }
+p11{
+  font-size: 14px;
 }
